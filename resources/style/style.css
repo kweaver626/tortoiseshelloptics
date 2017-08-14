@@ -1,0 +1,150 @@
+/*base settings*/
+body {
+  display: block;
+  font-size: 18px;
+  line-height: 1.4;
+}
+
+/*CONTAINER SETS*/
+.container {
+  display: flex;
+}
+
+
+/*HEADER*/
+
+.header {
+  display: flex;
+  background-color: cadetblue;
+  width: 960px;
+  margin-top: 1rem;
+  padding: 1rem 0px;
+  height: 3rem;
+  align-items: center;
+  justify-content: space-between;
+
+}
+.logo {
+  display: inline-block;
+  align-items: center;
+}
+.logo img {
+  margin-left: 2rem;
+  height: 1.5rem;
+}
+.logo span {
+  margin-left: 1rem;
+  color: white;
+  font-family: Helvetica;
+  font-size: 1rem;
+}
+/*NAV*/
+.navigation {
+  display: inline-block;
+  font-family: helvetica;
+  font-size: 1rem;
+  color: white;
+}
+.navigation span{
+  margin-right: 2rem;
+}
+
+/*BANNER*/
+.bannerhead {
+  display: flex;
+  background-image: url('glasses-bg.png');
+  height: 30rem;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.banner {
+  display: block;
+  background-color: white;
+  margin-top: 14rem;
+  padding: 1.5rem 5rem;
+  align-content: center;
+  margin-bottom: 10rem;
+}
+.banner span{
+  font-family: helvetica;
+  font-weight: bold;
+  font-size: 2rem;
+  line-height: 1.2;
+}
+/*SERVICES*/
+.services {
+ display: flex;
+ justify-content: center;
+ align-content: center;
+ margin-bottom: 3rem;
+
+}
+.service {
+  display: inline-block;
+  margin: 3rem 3rem 1rem 3rem;
+  height: 8rem;
+  width: 5rem;
+  justify-content: center;
+
+
+}
+.svcimg, .svcimga {
+  height: 5rem;
+  align-content: center;
+  justify-content: center;
+  width: 6rem;
+
+}
+
+.svcimg img {
+  width: 3.5rem;
+  margin-left: 1rem;
+
+}
+.svcimga img {
+  width: 5rem;
+
+}
+.svctext {
+  display: flex;
+  text-align: center;
+
+
+}
+/*INFO*/
+.info {
+  display: inline-block;
+  justify-content: center;
+  width: 35%;
+  margin-right: 5%;
+}
+.infobutton {
+  display: flex;
+  background-color: cadetblue;
+  padding: 0.25rem 3rem 0.25rem 1.25rem;
+  font-family: helvetica;
+  font-weight: bold;
+  font-size: 1rem;
+  color: white;
+  width: 10rem;
+}
+.infotext {
+  padding-top: 1rem;
+  padding-bottom: 5rem;
+  margin-bottom: 4rem;
+}
+
+/*FOOTER*/
+footer {
+  display: flex;
+  margin-left: 4rem;
+  padding: 4rem 0px;
+  background-color: azure;
+  width: 100%;
+  color: black;
+
+}
+footer img {
+  margin-right: 1rem;
+  height: 1.5rem;
+}
